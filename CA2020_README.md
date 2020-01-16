@@ -18,26 +18,26 @@ As noted earlier, Alana is already running and is accessible as a service. Each 
 
 On each dialogue turn, you will send a **POST** call to Alana to the aforementioned endpoint. At some point during the pipeline Alana will call all the bots specified on the call (including your own). By using `ngrok` you allow your bot to be accessible by Alana. Ngrok will bind an `ip:port` address to a simple URL like `http://example.ngrok.io`.
 
-![](https://i.ibb.co/ZcqSK5K/Untitled-Diagram.png)
+![](https://i.ibb.co/42bssJC/Untitled-Diagram.png)
 
 You may use any method to send the calls to Alana on each turn (curl, python requests, etc). The data that you will 
 need to send are as follows (example):
 
 ```python
 {'user_id': 'test-user',
- 'question': 'Hello there',   // The string representation of the user's utterance'
- 'session_id': 'some-session-id',   // A unique id PER DIALOGUE. For clarity, it could be in the format: "<project_number>.UUID4"
+ 'question': 'Hello there',   # The string representation of the user's utterance'
+ 'session_id': 'some-session-id',   # A unique id PER DIALOGUE. For clarity, it could be in the format: "<project_number>.UUID4"
  'overrides': {
-    'BOT_LIST': [   // List of ALL the bots that should be called this turn. For most cases this list will remain the same throughout your project.
-      'evi',  // For default Alana bots (that are already in the enseble) you can use just their name
-      {'awesome-bot': 'http://example.ngrok.io'},   // Don't forget to put your own bot in this list! It should be added as a dictionary in order to include the url
+    'BOT_LIST': [   # List of ALL the bots that should be called this turn. For most cases this list will remain the same throughout your project.
+      'evi',  # For default Alana bots (that are already in the enseble) you can use just their name
+      {'awesome-bot': 'http://example.ngrok.io'},   # Don't forget to put your own bot in this list! It should be added as a dictionary in order to include the url
       'news_bot_v2',
       'wiki_bot_mongo',
       'persona'
     ],
-    'PRIORITY_BOTS': [    // The priority in which the response will be selected amongst the candidates
+    'PRIORITY_BOTS': [    # The priority in which the response will be selected amongst the candidates
       'awesome-bot',
-      ['news_bot_v2', 'wiki_bot_mongo'],   // Nested list means that these bots share the same priority
+      ['news_bot_v2', 'wiki_bot_mongo'],   # Nested list means that these bots share the same priority
       'persona', 
       'evi'
     ]
@@ -45,6 +45,7 @@ need to send are as follows (example):
 }
 ```
 The default `BOT_LIST` list that you will have to add your own bot in is:
+
 ```python
 BOT_LIST:
     "clarification_bot"
@@ -62,6 +63,7 @@ BOT_LIST:
 (Note that you do NOT need to use every bot in the default list for your project. You can pick and choose the ones you need.)
 
 The default `PRIORITY_BOTS` list that you will have to add your own bot in is:
+
 ```python
 PRIORITY_BOTS:
 - profanity_bot
@@ -136,6 +138,7 @@ So the full input of each bot will be:
 ```
 
 Each bot then will need to return a dictionary like this:
+
 ```python
 {
     'result': [...], # a list of posible response candidates
@@ -155,6 +158,7 @@ Remember that no bot will have access directly to the database, so any informati
 
 An example output of 2 consequent turns would look like this: 
 **NOTE: As of 2019 this might be slightly different**
+
 ```python
 {u'current_state': {u'last_state': {},
                     u'session_id': u'CLI-00015',
@@ -332,6 +336,7 @@ An example output of 2 consequent turns would look like this:
 ## Advanced NLU pipeline response
 
 Given the user utterance `hello how are you`, the NLU pipeline will return the following JSON response
+
 ```
 {
     "session_id": "CLI-a761a305-122f-4b56-993a-882f3b3aefdb",
