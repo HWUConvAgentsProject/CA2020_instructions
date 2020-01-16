@@ -23,7 +23,7 @@ On each dialogue turn, you will send a **POST** call to Alana to the aforementio
 You may use any method to send the calls to Alana on each turn (curl, python requests, etc). The data that you will 
 need to send are as follows (example):
 
-```json
+```python
 {'user_id': 'test-user',
  'question': 'Hello there',   // The string representation of the user's utterance'
  'session_id': 'some-session-id',   // A unique id PER DIALOGUE. For clarity, it could be in the format: "<project_number>.UUID4"
