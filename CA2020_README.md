@@ -11,6 +11,7 @@ For your coursework you will use the Alana conversational framework. Alana runs 
 - (optional) `MongoDB` (e.g. from https://www.mongodb.com/download-center/community). Although MongoDB is not needed, most of you will proboably want to keep track of the internal state of your bots which MongoDB will be of great help.
 
 (After lecture has been given)
+
 2. Install all required packages by running `./alana_installation.sh`. This will create the _Alana_ virtual environment on Anaconda, activate it, and install all the packages there. 
 
 ## Usage
