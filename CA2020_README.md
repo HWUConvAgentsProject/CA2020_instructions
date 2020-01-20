@@ -441,4 +441,6 @@ Using this template also means that you will have access to the `response` objec
 data = {'user_id': 'test', 'question': 'hi', 'session_id': 'CLI-1234123412352135', 'overrides': {'BOT_LIST': ['test', 'coherence_bot'], 'PRIORITY_BOTS': ['coherence_bot']}}
 
 
-r= requests.post(url='http://852d4761.ngrok.io', json=data)```
+r= requests.post(url='http://852d4761.ngrok.io', json=data)
+r.json()
+```
