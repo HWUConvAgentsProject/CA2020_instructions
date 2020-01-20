@@ -436,7 +436,9 @@ example bot that shows how the state object can be used.
 Using this template also means that you will have access to the `response` object to keep in mind what you are expected to return to the Hub. These are the `result`, `bot_name`, `locked_requested` and `bot_params`.
 
 # test call
-`data = {'user_id': 'test', 'question': 'hi', 'session_id': 'CLI-1234123412352135', 'overrides': {'BOT_LIST': ['test', 'coherence_bot'], 'PRIORITY_BOTS': ['coherence_bot']}}
+
+```python
+data = {'user_id': 'test', 'question': 'hi', 'session_id': 'CLI-1234123412352135', 'overrides': {'BOT_LIST': ['test', 'coherence_bot'], 'PRIORITY_BOTS': ['coherence_bot']}}
 
 
-r= requests.post(url='http://852d4761.ngrok.io', json=data)`
+r= requests.post(url='http://852d4761.ngrok.io', json=data)```
