@@ -3,7 +3,7 @@
 
 
 # General Info
-For your coursework you will use the Alana conversational framework. Alana runs as a service and is accessible through an endpoind `http://52.23.135.246:5000`. 
+For your coursework you will use the Alana conversational framework. Alana runs as a service and is accessible through an endpoind `http://52.23.135.246:5000`. If you are on eduroam, it might not be accessible so use the endpoint `http://852d4761.ngrok.io` instead.
 ## Setup 
 1. Make sure you have the following installed in your system:
 - `anaconda` (https://docs.anaconda.com/anaconda/install/)
