@@ -78,7 +78,7 @@ PRIORITY_BOTS:
 ```
 
 An example curl call would look like this:
->curl -X POST -H "Content-Type: application/json" -d '{"user_id":"test-user", "question":"Hello there", "session_id":"CLI-sessionId", "overrides": {"BOT_LIST": ["coherence", {"awesome-bot":"http://example.ngrok.io"}, news, wiki, persona], "PRIORITY_BOTS":["awesome-bot",["news", "wiki"], persona, coherence]}}' http://52.23.135.246:5000
+>curl -X POST -H "Content-Type: application/json" -d '{"user_id":"test-user", "question":"Hello there", "session_id":"CLI-1341234", "projectId": "CA2020", "overrides": {"BOT_LIST": ["coherence_bot", "news_bot_v2", "wiki_bot_mongo"], "PRIORITY_BOTS":[["news_bot_v2", "wiki_bot_mongo"], "coherence_bot"]}}' http://52.23.135.246:5000
 
 Detailed information about what the `BOT_LIST` and `PRIORITY_BOTS` are will be given during the lab session.
 # State Object
