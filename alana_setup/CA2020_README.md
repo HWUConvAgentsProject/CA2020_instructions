@@ -28,6 +28,7 @@ need to send are as follows (example):
 {'user_id': 'test-user',
  'question': 'Hello there',   # The string representation of the user's utterance'
  'session_id': 'some-session-id',   # A unique id PER DIALOGUE. For clarity, it could be in the format: "<project_number>.UUID4"
+ 'projectId': 'CA2020',  # Fixed to this course
  'overrides': {
     'BOT_LIST': [   # List of ALL the bots that should be called this turn. For most cases this list will remain the same throughout your project.
       'evi',  # For default Alana bots (that are already in the enseble) you can use just their name
