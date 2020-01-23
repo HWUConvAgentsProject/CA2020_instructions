@@ -439,7 +439,7 @@ Using this template also means that you will have access to the `response` objec
 # test call
 
 ```python
-data = {'user_id': 'test', 'question': 'hi', 'session_id': 'CLI-1234123412352135', 'overrides': {'BOT_LIST': ['test', 'coherence_bot'], 'PRIORITY_BOTS': ['coherence_bot']}}
+data = {'user_id': 'test-user', 'question': 'Hello there', 'session_id': 'CLI-sessionId', 'projectId': 'CA2020', 'overrides': {'BOT_LIST': ['coherence_bot', 'news_bot_v2', 'wiki_bot_mongo'], 'PRIORITY_BOTS': [['news_bot_v2', 'wiki_bot_mongo'], 'coherence_bot']}}
 
 
 r= requests.post(url='http://852d4761.ngrok.io', json=data)
