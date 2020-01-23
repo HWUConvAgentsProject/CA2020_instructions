@@ -3,7 +3,7 @@
 In this tutorial we will learn how to create a chatbot that is able to support a conversation about
 restaurant booking. The task has been defined in the literature in the paper [Learning End-to-End Goal-Oriented Dialog
 ](https://arxiv.org/abs/1605.07683). The full dataset 
-can be downloaded from [official website](https://research.fb.com/downloads/babi/). In the folder `rasa_tutorial/data/` you can find a copy of it in the folder `dialog-bAbI-tasks`. In Lesson 5 you have already seen how to annotate the turn of the dialogue using the dialogue acts. In this practical session will briefly recap how to build NLU systems using RASA and we will integrate the NLU component in a working chatbot able to do restaurant recommendation.
+can be downloaded from [official website](https://research.fb.com/downloads/babi/). In this practical session will briefly recap how to build NLU systems using RASA and we will integrate the NLU component in a working chatbot able to do restaurant recommendation.
 
 ## Setup 
 
