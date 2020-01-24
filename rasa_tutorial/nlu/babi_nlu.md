@@ -1,0 +1,870 @@
+## intent:greet
+- hello
+- good morning
+- hi
+
+## intent:affirm
+- let's do it
+- i love that
+- it's perfect
+- that looks great
+
+## intent:deny
+- no thank you
+- do you have something else
+- no this does not work for me
+- no i don't like that
+- no
+- no thanks
+
+## intent:make_reservation
+- i'd like to book a table in [madrid](location) with [british](cuisine) cuisine
+- can you make a restaurant reservation with [british](cuisine) food in [paris](location) in a [cheap](price) price range
+- i'd like to book a table with [spanish](cuisine) cuisine for [two](number) people in [madrid](location)
+- can you make a restaurant reservation in [london](location) for [six](number)
+- may i have a table for [two](number) people in a [cheap](price) price range in [bombay](location)
+- can you make a restaurant reservation with [italian](cuisine) food in a [moderate](price) price range
+- i'd like to book a table for [six](number) people in a [moderate](price) price range
+- may i have a table in a [cheap](price) price range with [italian](cuisine) food for [two](number)
+- can you make a restaurant reservation with [spanish](cuisine) food in a [moderate](price) price range for [two](number)
+- may i have a table for [four](number) in a [expensive](price) price range in [paris](location)
+- may i have a table with [indian](cuisine) food in a [moderate](price) price range
+- can you book a table with [italian](cuisine) cuisine
+- can you book a table in a [expensive](price) price range for [four](number) with [british](cuisine) food
+- i'd like to book a table in [bombay](location) for [six](number) in a [cheap](price) price range
+- can you make a restaurant reservation in [rome](location) for [two](number) people in a [moderate](price) price range
+- can you book a table with [french](cuisine) food in a [moderate](price) price range in [madrid](location)
+- can you book a table in a [moderate](price) price range in [paris](location) for [four](number)
+- can you make a restaurant reservation for [four](number) people in a [moderate](price) price range
+- can you book a table in a [cheap](price) price range in [london](location) for [eight](number) people
+- may i have a table in a [moderate](price) price range in [rome](location)
+- can you make a restaurant reservation for [eight](number) people in a [moderate](price) price range
+- can you make a restaurant reservation in a [expensive](price) price range in [paris](location)
+- i'd like to book a table for [eight](number)
+- can you book a table with [spanish](cuisine) food for [eight](number)
+- may i have a table with [british](cuisine) food in a [expensive](price) price range for [eight](number)
+- can you make a restaurant reservation for [six](number) with [indian](cuisine) food in a [expensive](price) price range
+- may i have a table in [london](location) in a [moderate](price) price range with [british](cuisine) food
+- i'd like to book a table in [london](location)
+- i'd like to book a table in a [moderate](price) price range for [four](number) people in [madrid](location)
+- i'd like to book a table with [indian](cuisine) food in a [expensive](price) price range for [four](number) people
+- may i have a table with [spanish](cuisine) food for [six](number) people
+- can you book a table for [eight](number) in [rome](location) in a [moderate](price) price range
+- can you book a table in [london](location) for [two](number) people
+- can you make a restaurant reservation with [french](cuisine) cuisine for [four](number) people
+- i'd like to book a table with [british](cuisine) cuisine in [bombay](location) for [six](number) people
+- may i have a table with [spanish](cuisine) food in [madrid](location)
+- i'd like to book a table in a [moderate](price) price range in [london](location)
+- may i have a table in a [moderate](price) price range for [four](number)
+- can you book a table for [eight](number) people with [italian](cuisine) cuisine in a [cheap](price) price range
+- can you book a table in a [cheap](price) price range in [london](location)
+- may i have a table with [french](cuisine) food in a [cheap](price) price range
+- can you book a table for [six](number) with [french](cuisine) food in [rome](location)
+- can you make a restaurant reservation in a [expensive](price) price range in [madrid](location) with [indian](cuisine) food
+- i'd like to book a table for [two](number) in a [expensive](price) price range
+- i'd like to book a table in a [moderate](price) price range with [french](cuisine) food for [four](number)
+- can you book a table for [eight](number) people with [italian](cuisine) cuisine
+- can you book a table in [rome](location) for [eight](number) in a [moderate](price) price range
+- can you book a table in [london](location) for [four](number) people in a [cheap](price) price range
+- may i have a table in a [cheap](price) price range in [madrid](location) with [indian](cuisine) food
+- i'd like to book a table in [bombay](location) in a [moderate](price) price range
+- i'd like to book a table for [six](number) people in [paris](location) in a [moderate](price) price range
+- can you book a table in [rome](location) for [six](number)
+- can you make a restaurant reservation for [two](number) people in [london](location)
+- may i have a table for [four](number) in a [moderate](price) price range with [italian](cuisine) food
+- may i have a table in a [expensive](price) price range for [four](number) people with [french](cuisine) food
+- may i have a table in [rome](location) in a [expensive](price) price range for [four](number) people
+- may i have a table with [british](cuisine) food for [four](number) people in [london](location)
+- can you book a table with [indian](cuisine) food in a [moderate](price) price range in [madrid](location)
+- can you make a restaurant reservation with [french](cuisine) cuisine
+- i'd like to book a table in a [expensive](price) price range with [british](cuisine) cuisine in [rome](location)
+- can you book a table in [rome](location) for [four](number) in a [expensive](price) price range
+- can you book a table for [two](number) people in a [moderate](price) price range
+- i'd like to book a table for [six](number) people in a [expensive](price) price range
+- can you make a restaurant reservation with [british](cuisine) cuisine in [paris](location)
+- can you book a table in [bombay](location)
+- can you make a restaurant reservation in a [moderate](price) price range for [two](number) people
+- can you make a restaurant reservation for [four](number) in [madrid](location)
+- can you make a restaurant reservation for [eight](number) people with [french](cuisine) food
+- can you book a table for [eight](number) people with [spanish](cuisine) food
+- can you make a restaurant reservation in a [cheap](price) price range with [british](cuisine) cuisine for [two](number)
+- i'd like to book a table in a [expensive](price) price range with [indian](cuisine) cuisine for [two](number)
+- can you make a restaurant reservation with [spanish](cuisine) food in a [cheap](price) price range
+- can you make a restaurant reservation for [two](number) people with [spanish](cuisine) cuisine
+- can you make a restaurant reservation in a [moderate](price) price range in [bombay](location) with [french](cuisine) food
+- can you make a restaurant reservation for [four](number) people in a [cheap](price) price range
+- can you book a table with [indian](cuisine) food for [six](number)
+- i'd like to book a table for [six](number) people with [british](cuisine) cuisine
+- can you book a table in [bombay](location) with [indian](cuisine) food for [four](number)
+- can you make a restaurant reservation in [madrid](location) for [four](number) people with [french](cuisine) food
+- may i have a table in a [expensive](price) price range with [indian](cuisine) cuisine in [london](location)
+- i'd like to book a table in a [moderate](price) price range for [two](number)
+- i'd like to book a table in [paris](location) in a [moderate](price) price range
+- can you make a restaurant reservation with [french](cuisine) cuisine in [madrid](location) for [six](number) people
+- may i have a table for [four](number) with [french](cuisine) cuisine in [madrid](location)
+- may i have a table in a [moderate](price) price range for [two](number) people
+- i'd like to book a table for [four](number) people in a [moderate](price) price range with [indian](cuisine) food
+- can you make a restaurant reservation for [four](number) people in [london](location) in a [expensive](price) price range
+- can you book a table for [six](number) in a [cheap](price) price range in [london](location)
+- can you make a restaurant reservation in a [cheap](price) price range in [london](location) with [french](cuisine) food
+- can you book a table for [four](number) in [madrid](location)
+- can you book a table with [french](cuisine) food
+- can you book a table for [eight](number) people with [french](cuisine) food in a [moderate](price) price range
+- can you make a restaurant reservation in [paris](location)
+- can you book a table in a [expensive](price) price range in [madrid](location)
+- can you book a table in a [cheap](price) price range in [bombay](location) for [four](number)
+- can you make a restaurant reservation with [indian](cuisine) cuisine
+- can you book a table for [two](number) people in [madrid](location)
+- may i have a table in a [expensive](price) price range in [paris](location) with [british](cuisine) cuisine
+- may i have a table in a [cheap](price) price range for [four](number)
+- i'd like to book a table with [british](cuisine) cuisine for [two](number) people
+- can you make a restaurant reservation for [four](number) with [french](cuisine) food in [rome](location)
+- can you book a table in a [moderate](price) price range in [madrid](location) for [six](number) people
+- may i have a table for [eight](number)
+- can you make a restaurant reservation with [indian](cuisine) cuisine for [four](number) in [rome](location)
+- can you book a table in a [expensive](price) price range with [italian](cuisine) cuisine for [six](number)
+- can you make a restaurant reservation in a [cheap](price) price range in [bombay](location) for [eight](number)
+- can you make a restaurant reservation with [british](cuisine) cuisine in a [moderate](price) price range
+- can you make a restaurant reservation in [bombay](location) in a [expensive](price) price range
+- can you book a table in [paris](location) in a [moderate](price) price range
+- may i have a table with [indian](cuisine) cuisine in a [cheap](price) price range in [rome](location)
+- can you book a table in [bombay](location) with [british](cuisine) food
+- i'd like to book a table in [paris](location) in a [expensive](price) price range for [eight](number) people
+- may i have a table for [two](number) people with [spanish](cuisine) food in [bombay](location)
+- can you book a table with [british](cuisine) cuisine
+- can you book a table for [two](number) people
+- can you book a table in [madrid](location) in a [moderate](price) price range with [indian](cuisine) cuisine
+- may i have a table in a [moderate](price) price range for [six](number) in [rome](location)
+- i'd like to book a table with [british](cuisine) cuisine in a [expensive](price) price range
+- can you book a table with [indian](cuisine) food
+- i'd like to book a table for [eight](number) people
+- can you make a restaurant reservation with [italian](cuisine) cuisine in [rome](location) in a [moderate](price) price range
+- can you make a restaurant reservation with [italian](cuisine) food
+- can you make a restaurant reservation for [eight](number) people with [indian](cuisine) cuisine
+- i'd like to book a table with [italian](cuisine) cuisine in [madrid](location)
+- can you make a restaurant reservation with [french](cuisine) food
+- can you make a restaurant reservation with [italian](cuisine) cuisine
+- can you book a table in a [moderate](price) price range with [british](cuisine) cuisine
+- may i have a table for [two](number) people in a [expensive](price) price range
+- i'd like to book a table with [british](cuisine) food
+- can you book a table for [two](number) with [french](cuisine) cuisine
+- can you book a table in a [cheap](price) price range in [bombay](location) for [four](number) people
+- may i have a table for [four](number) in a [cheap](price) price range in [rome](location)
+- i'd like to book a table with [spanish](cuisine) food in a [moderate](price) price range
+- i'd like to book a table for [two](number) people in a [cheap](price) price range
+- i'd like to book a table in a [expensive](price) price range with [italian](cuisine) cuisine
+- may i have a table in a [cheap](price) price range
+- can you make a restaurant reservation in a [expensive](price) price range
+- may i have a table in a [cheap](price) price range for [eight](number) in [madrid](location)
+- may i have a table for [four](number) people in [rome](location)
+- may i have a table for [two](number) in a [cheap](price) price range
+- i'd like to book a table for [six](number) in [paris](location)
+- can you make a restaurant reservation for [eight](number) people with [british](cuisine) cuisine
+- may i have a table in a [moderate](price) price range for [eight](number) people
+- i'd like to book a table for [two](number) people in [madrid](location) with [french](cuisine) food
+- can you make a restaurant reservation in a [moderate](price) price range with [italian](cuisine) cuisine in [london](location)
+- i'd like to book a table in [paris](location) for [two](number) with [british](cuisine) cuisine
+- can you make a restaurant reservation in a [moderate](price) price range with [british](cuisine) cuisine in [paris](location)
+- may i have a table with [italian](cuisine) food in [paris](location)
+- can you book a table with [indian](cuisine) cuisine in [bombay](location)
+- can you make a restaurant reservation for [two](number) in a [cheap](price) price range
+- can you make a restaurant reservation in a [expensive](price) price range in [paris](location) with [italian](cuisine) cuisine
+- can you make a restaurant reservation for [eight](number) people in [madrid](location) in a [moderate](price) price range
+- can you make a restaurant reservation in [paris](location) with [british](cuisine) food
+- may i have a table in a [cheap](price) price range in [london](location)
+- can you book a table in a [expensive](price) price range in [rome](location)
+- i'd like to book a table with [french](cuisine) cuisine in [paris](location)
+- may i have a table for [four](number) people with [british](cuisine) cuisine in [madrid](location)
+- may i have a table in a [cheap](price) price range for [eight](number) in [rome](location)
+- can you make a restaurant reservation for [four](number) people in [rome](location) with [spanish](cuisine) cuisine
+- can you book a table for [six](number) people with [indian](cuisine) cuisine in [madrid](location)
+- may i have a table with [indian](cuisine) cuisine for [six](number) people
+- may i have a table with [indian](cuisine) cuisine for [four](number) in [rome](location)
+- can you make a restaurant reservation in a [cheap](price) price range in [paris](location)
+- i'd like to book a table in [paris](location) in a [expensive](price) price range
+- may i have a table in [rome](location) with [italian](cuisine) food for [six](number) people
+- can you make a restaurant reservation for [six](number) people in [paris](location) with [indian](cuisine) cuisine
+- can you book a table with [indian](cuisine) cuisine for [six](number) in a [cheap](price) price range
+- may i have a table in a [expensive](price) price range with [indian](cuisine) cuisine for [four](number)
+- can you book a table for [eight](number) people with [french](cuisine) food
+- may i have a table with [spanish](cuisine) cuisine for [four](number)
+- may i have a table for [six](number) people in a [moderate](price) price range
+- i'd like to book a table in [rome](location) in a [expensive](price) price range
+- can you make a restaurant reservation for [two](number) people in [rome](location)
+- i'd like to book a table for [two](number) people with [french](cuisine) cuisine
+- can you make a restaurant reservation in [madrid](location) in a [expensive](price) price range with [italian](cuisine) cuisine
+- i'd like to book a table in [rome](location)
+- i'd like to book a table in a [cheap](price) price range for [eight](number)
+- i'd like to book a table in a [moderate](price) price range for [two](number) people in [rome](location)
+- may i have a table for [six](number) people with [british](cuisine) cuisine in a [cheap](price) price range
+- can you make a restaurant reservation with [spanish](cuisine) cuisine in [rome](location)
+- can you book a table with [italian](cuisine) food in [bombay](location)
+- can you make a restaurant reservation for [six](number)
+- i'd like to book a table in [bombay](location) for [six](number) with [british](cuisine) food
+- can you make a restaurant reservation for [six](number) people in a [cheap](price) price range in [bombay](location)
+- may i have a table for [two](number) with [indian](cuisine) cuisine
+- can you make a restaurant reservation for [six](number) people
+- i'd like to book a table in a [cheap](price) price range
+- can you book a table with [spanish](cuisine) cuisine for [six](number) in [rome](location)
+- i'd like to book a table in a [moderate](price) price range in [bombay](location)
+- can you make a restaurant reservation with [italian](cuisine) cuisine in a [moderate](price) price range for [two](number)
+- can you make a restaurant reservation for [six](number) people in a [expensive](price) price range with [italian](cuisine) food
+- can you make a restaurant reservation in a [expensive](price) price range for [eight](number)
+- can you book a table with [british](cuisine) cuisine in [bombay](location) in a [expensive](price) price range
+- can you book a table with [british](cuisine) food in [madrid](location) in a [cheap](price) price range
+- may i have a table in [madrid](location) with [british](cuisine) food for [four](number)
+- may i have a table for [eight](number) people with [spanish](cuisine) food in [paris](location)
+- i'd like to book a table in [madrid](location) with [indian](cuisine) food in a [moderate](price) price range
+- can you book a table with [french](cuisine) cuisine in [rome](location) for [two](number) people
+- may i have a table in [bombay](location) with [british](cuisine) cuisine
+- may i have a table with [italian](cuisine) cuisine
+- can you make a restaurant reservation with [british](cuisine) cuisine in a [cheap](price) price range
+- may i have a table in a [expensive](price) price range for [six](number) people in [madrid](location)
+- i'd like to book a table with [indian](cuisine) food
+- i'd like to book a table in [bombay](location) in a [moderate](price) price range with [spanish](cuisine) cuisine
+- can you make a restaurant reservation for [six](number) people in a [expensive](price) price range
+- can you book a table with [indian](cuisine) cuisine
+- i'd like to book a table in a [cheap](price) price range with [italian](cuisine) cuisine
+- can you make a restaurant reservation in [paris](location) with [italian](cuisine) food in a [expensive](price) price range
+- can you book a table in [london](location) in a [moderate](price) price range
+- i'd like to book a table for [four](number)
+- can you make a restaurant reservation for [four](number) people
+- can you make a restaurant reservation in a [expensive](price) price range in [rome](location) for [six](number)
+- may i have a table for [two](number) in a [cheap](price) price range with [indian](cuisine) cuisine
+- can you book a table for [eight](number) in [paris](location) in a [expensive](price) price range
+- can you book a table in [london](location) with [indian](cuisine) food
+- i'd like to book a table in a [cheap](price) price range with [british](cuisine) cuisine
+- can you make a restaurant reservation with [spanish](cuisine) cuisine for [six](number) in [rome](location)
+- can you make a restaurant reservation for [four](number) in [london](location) in a [moderate](price) price range
+- can you make a restaurant reservation in [rome](location) in a [moderate](price) price range
+- i'd like to book a table for [six](number) people in [madrid](location) with [french](cuisine) food
+- can you book a table in [london](location) for [two](number) in a [expensive](price) price range
+- can you book a table in [paris](location) with [british](cuisine) cuisine
+- may i have a table with [spanish](cuisine) cuisine in [bombay](location) in a [expensive](price) price range
+- can you make a restaurant reservation in a [expensive](price) price range in [bombay](location)
+- can you book a table for [two](number) in [rome](location) in a [moderate](price) price range
+- can you book a table in a [moderate](price) price range for [four](number) in [paris](location)
+- may i have a table in a [moderate](price) price range with [italian](cuisine) food
+- can you book a table for [six](number) people
+- may i have a table in a [moderate](price) price range with [british](cuisine) food in [rome](location)
+- i'd like to book a table in a [cheap](price) price range for [two](number) people with [italian](cuisine) food
+- can you make a restaurant reservation in a [cheap](price) price range in [bombay](location)
+- can you book a table with [british](cuisine) food for [six](number) people in a [moderate](price) price range
+- can you book a table for [four](number) people in [madrid](location)
+- can you make a restaurant reservation with [italian](cuisine) food for [eight](number) in a [expensive](price) price range
+- i'd like to book a table for [six](number) in [rome](location) with [british](cuisine) cuisine
+- can you make a restaurant reservation in a [cheap](price) price range for [four](number) people with [british](cuisine) food
+- may i have a table in a [expensive](price) price range for [six](number) people in [paris](location)
+- can you make a restaurant reservation for [six](number) in [madrid](location) with [french](cuisine) food
+- can you make a restaurant reservation in a [cheap](price) price range with [indian](cuisine) cuisine
+- can you make a restaurant reservation in [paris](location) with [spanish](cuisine) cuisine
+- i'd like to book a table with [spanish](cuisine) food in [madrid](location)
+- can you make a restaurant reservation in [rome](location) in a [cheap](price) price range
+- can you make a restaurant reservation for [six](number) people in [bombay](location)
+- i'd like to book a table with [british](cuisine) food in [madrid](location)
+- can you make a restaurant reservation for [eight](number) people in [rome](location)
+- can you make a restaurant reservation in a [cheap](price) price range in [london](location) with [british](cuisine) cuisine
+- may i have a table in [rome](location)
+- can you make a restaurant reservation for [two](number) with [spanish](cuisine) food in [bombay](location)
+- can you book a table for [eight](number) in a [moderate](price) price range in [london](location)
+- can you make a restaurant reservation for [four](number) in [bombay](location) with [french](cuisine) food
+- can you book a table for [six](number) with [british](cuisine) cuisine
+- may i have a table in a [moderate](price) price range with [italian](cuisine) food in [london](location)
+- may i have a table for [six](number) people with [french](cuisine) cuisine in a [expensive](price) price range
+- can you book a table for [two](number) in [bombay](location)
+- i'd like to book a table with [spanish](cuisine) cuisine in [paris](location)
+- can you make a restaurant reservation with [spanish](cuisine) cuisine for [two](number) people in [paris](location)
+- may i have a table for [four](number) people
+- can you book a table for [four](number) in a [expensive](price) price range with [french](cuisine) food
+- can you book a table in a [moderate](price) price range in [bombay](location) with [spanish](cuisine) food
+- may i have a table for [eight](number) in a [cheap](price) price range
+- i'd like to book a table in [rome](location) for [eight](number)
+- can you book a table in [bombay](location) for [two](number)
+- can you make a restaurant reservation in [rome](location) with [french](cuisine) food
+- can you book a table for [two](number) in a [expensive](price) price range
+- can you make a restaurant reservation for [two](number) people with [french](cuisine) food
+- can you book a table in a [expensive](price) price range with [indian](cuisine) cuisine in [madrid](location)
+- can you make a restaurant reservation with [british](cuisine) cuisine for [six](number) people in a [expensive](price) price range
+- can you make a restaurant reservation in a [cheap](price) price range with [british](cuisine) food in [madrid](location)
+- can you book a table in a [expensive](price) price range with [indian](cuisine) food
+- i'd like to book a table in a [moderate](price) price range for [four](number) people
+- can you book a table with [british](cuisine) food in a [cheap](price) price range
+- can you book a table with [british](cuisine) food
+- i'd like to book a table in [bombay](location) in a [cheap](price) price range
+- can you make a restaurant reservation in a [expensive](price) price range in [paris](location) with [french](cuisine) cuisine
+- can you book a table for [two](number) people in a [expensive](price) price range
+- i'd like to book a table with [british](cuisine) cuisine for [four](number) in a [moderate](price) price range
+- can you make a restaurant reservation for [eight](number)
+- may i have a table in a [cheap](price) price range with [indian](cuisine) food
+- may i have a table in [madrid](location) with [italian](cuisine) cuisine for [four](number)
+- can you book a table with [indian](cuisine) cuisine for [four](number) people in [madrid](location)
+- i'd like to book a table with [indian](cuisine) food for [eight](number) people
+- can you make a restaurant reservation with [indian](cuisine) food in a [moderate](price) price range for [eight](number) people
+- i'd like to book a table for [six](number) people in [bombay](location) in a [moderate](price) price range
+- may i have a table in [bombay](location) in a [expensive](price) price range
+- may i have a table in [london](location) in a [cheap](price) price range with [spanish](cuisine) food
+- may i have a table in [paris](location)
+- can you book a table for [six](number) with [spanish](cuisine) food
+- i'd like to book a table in a [expensive](price) price range for [six](number) people
+- can you book a table in [london](location) with [indian](cuisine) food in a [expensive](price) price range
+- may i have a table in [london](location) in a [moderate](price) price range with [british](cuisine) cuisine
+- can you make a restaurant reservation for [two](number) people with [indian](cuisine) food
+- can you book a table with [indian](cuisine) cuisine for [four](number) people in a [expensive](price) price range
+- can you make a restaurant reservation with [indian](cuisine) cuisine in [rome](location)
+- i'd like to book a table with [british](cuisine) cuisine in [london](location)
+- may i have a table in [paris](location) for [two](number) with [italian](cuisine) cuisine
+- may i have a table with [british](cuisine) food in [paris](location)
+- may i have a table in a [moderate](price) price range with [french](cuisine) cuisine in [madrid](location)
+- i'd like to book a table with [french](cuisine) food in [london](location) for [two](number)
+- may i have a table for [six](number) with [italian](cuisine) food
+- i'd like to book a table in [rome](location) with [french](cuisine) food
+- i'd like to book a table in a [cheap](price) price range for [two](number) people in [bombay](location)
+- may i have a table for [two](number) in a [moderate](price) price range
+- can you book a table for [four](number) people
+- can you book a table in [paris](location) for [four](number) in a [moderate](price) price range
+- can you book a table in [bombay](location) with [indian](cuisine) cuisine
+- can you book a table in a [moderate](price) price range in [madrid](location) for [two](number) people
+- i'd like to book a table in a [expensive](price) price range in [bombay](location) for [six](number)
+- can you make a restaurant reservation for [two](number) with [french](cuisine) food
+- can you make a restaurant reservation for [six](number) in a [moderate](price) price range in [paris](location)
+- may i have a table in [london](location) with [spanish](cuisine) food in a [moderate](price) price range
+- i'd like to book a table with [british](cuisine) cuisine
+- can you make a restaurant reservation in [madrid](location) with [spanish](cuisine) cuisine
+- may i have a table in a [expensive](price) price range
+- can you make a restaurant reservation for [two](number) people in [madrid](location)
+- may i have a table in a [expensive](price) price range with [british](cuisine) food for [six](number)
+- may i have a table for [four](number) in a [expensive](price) price range with [indian](cuisine) cuisine
+- i'd like to book a table with [indian](cuisine) food in a [expensive](price) price range
+- can you book a table for [two](number)
+- may i have a table with [british](cuisine) cuisine for [six](number) in a [cheap](price) price range
+- can you book a table with [french](cuisine) cuisine in [bombay](location) for [four](number) people
+- i'd like to book a table in a [cheap](price) price range with [french](cuisine) food
+- may i have a table in [paris](location) in a [expensive](price) price range
+- can you make a restaurant reservation in [madrid](location) for [four](number) with [indian](cuisine) cuisine
+- can you book a table with [british](cuisine) cuisine in [paris](location)
+- i'd like to book a table with [italian](cuisine) cuisine in a [expensive](price) price range
+- may i have a table with [italian](cuisine) food in [london](location) in a [moderate](price) price range
+- can you book a table with [spanish](cuisine) cuisine for [four](number) in a [moderate](price) price range
+- may i have a table in [bombay](location) for [two](number) people
+- may i have a table in a [cheap](price) price range in [rome](location)
+- can you make a restaurant reservation for [eight](number) people in a [cheap](price) price range with [indian](cuisine) cuisine
+- i'd like to book a table with [french](cuisine) cuisine in a [expensive](price) price range in [rome](location)
+- can you book a table with [indian](cuisine) cuisine in [bombay](location) in a [cheap](price) price range
+- i'd like to book a table in a [moderate](price) price range in [madrid](location) for [six](number) people
+- can you make a restaurant reservation for [eight](number) in a [expensive](price) price range in [rome](location)
+- can you book a table in [london](location) in a [cheap](price) price range
+- i'd like to book a table with [italian](cuisine) cuisine
+- may i have a table with [french](cuisine) cuisine in a [moderate](price) price range
+- may i have a table in a [moderate](price) price range with [spanish](cuisine) food
+- can you book a table for [six](number) with [spanish](cuisine) food in [london](location)
+- can you make a restaurant reservation with [indian](cuisine) cuisine in a [cheap](price) price range for [four](number)
+- i'd like to book a table in [madrid](location) with [french](cuisine) food for [two](number) people
+- can you make a restaurant reservation with [italian](cuisine) food in [bombay](location)
+- can you book a table for [four](number)
+- can you make a restaurant reservation for [six](number) with [british](cuisine) food in a [moderate](price) price range
+- can you make a restaurant reservation in [london](location) in a [expensive](price) price range
+- can you book a table in a [cheap](price) price range with [british](cuisine) cuisine for [eight](number) people
+- can you make a restaurant reservation in [bombay](location) with [indian](cuisine) food for [eight](number) people
+- i'd like to book a table with [british](cuisine) cuisine in [madrid](location) in a [cheap](price) price range
+- may i have a table with [spanish](cuisine) cuisine
+- can you book a table in [rome](location) in a [moderate](price) price range with [italian](cuisine) cuisine
+- can you book a table in a [expensive](price) price range in [rome](location) for [six](number) people
+- may i have a table in [bombay](location) for [four](number) people in a [moderate](price) price range
+- may i have a table in [bombay](location) with [italian](cuisine) food for [two](number) people
+- i'd like to book a table in [london](location) in a [expensive](price) price range
+- may i have a table for [eight](number) people in a [cheap](price) price range with [french](cuisine) cuisine
+- i'd like to book a table with [british](cuisine) food for [four](number) in [madrid](location)
+- can you make a restaurant reservation in a [cheap](price) price range
+- can you make a restaurant reservation with [british](cuisine) food for [four](number)
+- may i have a table for [six](number) in a [expensive](price) price range in [bombay](location)
+- may i have a table in a [moderate](price) price range in [rome](location) with [spanish](cuisine) food
+- may i have a table for [six](number) people with [italian](cuisine) food
+- may i have a table with [french](cuisine) food in [madrid](location)
+- i'd like to book a table in a [moderate](price) price range
+- i'd like to book a table for [six](number) people
+- may i have a table in [madrid](location) with [indian](cuisine) cuisine for [six](number)
+- can you make a restaurant reservation with [spanish](cuisine) food for [four](number) people
+- i'd like to book a table in a [moderate](price) price range in [london](location) with [spanish](cuisine) cuisine
+- i'd like to book a table with [british](cuisine) food in [bombay](location) for [six](number) people
+- i'd like to book a table for [six](number) with [british](cuisine) food
+- can you book a table for [four](number) in [paris](location) with [italian](cuisine) food
+- can you make a restaurant reservation for [six](number) in [london](location) in a [cheap](price) price range
+- can you make a restaurant reservation in a [moderate](price) price range with [indian](cuisine) cuisine
+- can you make a restaurant reservation in [rome](location) with [italian](cuisine) food for [eight](number) people
+- can you book a table in [rome](location) for [two](number) in a [expensive](price) price range
+- i'd like to book a table in a [expensive](price) price range for [four](number)
+- can you make a restaurant reservation with [spanish](cuisine) cuisine in a [moderate](price) price range for [two](number)
+- may i have a table in a [cheap](price) price range for [two](number)
+- may i have a table for [two](number) with [spanish](cuisine) cuisine in a [moderate](price) price range
+- may i have a table in a [moderate](price) price range in [london](location) for [two](number)
+- can you make a restaurant reservation in a [moderate](price) price range in [paris](location) for [six](number) people
+- may i have a table in [madrid](location)
+- may i have a table with [spanish](cuisine) cuisine for [six](number)
+- i'd like to book a table in a [moderate](price) price range for [four](number) people in [paris](location)
+- can you book a table for [four](number) in [london](location)
+- can you make a restaurant reservation with [french](cuisine) food in a [moderate](price) price range
+- i'd like to book a table for [four](number) in [madrid](location) with [italian](cuisine) cuisine
+- can you make a restaurant reservation for [two](number) people in [london](location) in a [moderate](price) price range
+- can you book a table for [two](number) in [rome](location) in a [cheap](price) price range
+- can you make a restaurant reservation for [eight](number) people
+- may i have a table in a [expensive](price) price range for [eight](number) with [italian](cuisine) food
+- i'd like to book a table for [six](number) with [french](cuisine) food
+- may i have a table with [italian](cuisine) food in a [cheap](price) price range
+- may i have a table for [six](number) with [french](cuisine) food
+- can you make a restaurant reservation in a [expensive](price) price range with [italian](cuisine) cuisine
+- can you make a restaurant reservation for [six](number) people in [paris](location) in a [moderate](price) price range
+- may i have a table with [british](cuisine) cuisine in a [cheap](price) price range
+- can you make a restaurant reservation in a [moderate](price) price range in [madrid](location)
+- may i have a table in a [cheap](price) price range in [paris](location) with [british](cuisine) food
+- can you make a restaurant reservation for [four](number) in [rome](location) in a [cheap](price) price range
+- can you book a table in a [expensive](price) price range with [french](cuisine) cuisine
+- i'd like to book a table in a [expensive](price) price range with [italian](cuisine) food for [four](number)
+- can you make a restaurant reservation in [paris](location) with [spanish](cuisine) food
+- can you make a restaurant reservation for [eight](number) in [paris](location)
+- can you make a restaurant reservation in a [cheap](price) price range with [british](cuisine) food
+- i'd like to book a table in [rome](location) in a [cheap](price) price range
+- i'd like to book a table in [madrid](location) with [indian](cuisine) food
+- may i have a table in a [cheap](price) price range for [eight](number) people with [french](cuisine) cuisine
+- can you make a restaurant reservation in [madrid](location) for [six](number) people in a [expensive](price) price range
+- can you make a restaurant reservation with [french](cuisine) food in [madrid](location)
+- can you book a table with [french](cuisine) cuisine
+- may i have a table in [madrid](location) with [british](cuisine) food for [four](number) people
+- can you make a restaurant reservation with [british](cuisine) cuisine for [six](number) people
+- can you make a restaurant reservation in [bombay](location) in a [cheap](price) price range
+- i'd like to book a table for [four](number) people in [bombay](location) in a [moderate](price) price range
+- can you book a table in a [cheap](price) price range with [spanish](cuisine) cuisine
+- i'd like to book a table in [madrid](location) for [six](number) with [british](cuisine) food
+- may i have a table in [bombay](location) for [four](number) people
+- may i have a table for [six](number) people in [london](location) in a [cheap](price) price range
+- can you book a table with [french](cuisine) cuisine for [two](number)
+- can you book a table for [six](number) in a [cheap](price) price range
+- may i have a table for [six](number) in [bombay](location) with [italian](cuisine) food
+- can you make a restaurant reservation for [six](number) people in [bombay](location) in a [expensive](price) price range
+- can you make a restaurant reservation in a [expensive](price) price range with [spanish](cuisine) food
+- can you make a restaurant reservation for [six](number) people in a [cheap](price) price range
+- can you make a restaurant reservation with [indian](cuisine) food for [eight](number) in a [moderate](price) price range
+- i'd like to book a table with [indian](cuisine) food in [bombay](location) for [six](number)
+- i'd like to book a table in a [expensive](price) price range with [british](cuisine) food in [paris](location)
+- can you make a restaurant reservation in [madrid](location) for [eight](number) people
+- i'd like to book a table with [french](cuisine) cuisine for [two](number) people
+- can you make a restaurant reservation with [italian](cuisine) food in [london](location)
+- i'd like to book a table in a [cheap](price) price range in [paris](location)
+- i'd like to book a table in a [moderate](price) price range with [french](cuisine) food for [eight](number)
+- i'd like to book a table in [paris](location) with [spanish](cuisine) food
+- may i have a table in [bombay](location) with [indian](cuisine) food
+- may i have a table with [british](cuisine) food for [two](number)
+- can you book a table in a [cheap](price) price range with [indian](cuisine) cuisine in [bombay](location)
+- i'd like to book a table in a [cheap](price) price range for [eight](number) with [british](cuisine) food
+- can you make a restaurant reservation in [london](location) in a [moderate](price) price range with [french](cuisine) food
+- can you make a restaurant reservation with [indian](cuisine) food for [six](number) in a [expensive](price) price range
+- may i have a table with [indian](cuisine) cuisine in [london](location) for [four](number) people
+- may i have a table in [madrid](location) with [british](cuisine) cuisine for [four](number)
+- i'd like to book a table in [bombay](location)
+- can you make a restaurant reservation for [eight](number) people in a [cheap](price) price range
+- can you book a table in [madrid](location) with [british](cuisine) food
+- may i have a table for [eight](number) people in [bombay](location)
+- may i have a table in [rome](location) with [french](cuisine) food
+- can you make a restaurant reservation with [spanish](cuisine) cuisine
+- can you book a table for [six](number) in [bombay](location)
+- may i have a table in [madrid](location) for [six](number) people
+- can you make a restaurant reservation with [spanish](cuisine) food
+- can you book a table in a [cheap](price) price range in [bombay](location)
+- can you book a table in [bombay](location) in a [expensive](price) price range
+- i'd like to book a table with [spanish](cuisine) food
+- can you make a restaurant reservation in [bombay](location)
+- i'd like to book a table with [italian](cuisine) cuisine in a [moderate](price) price range in [paris](location)
+- may i have a table in a [expensive](price) price range with [indian](cuisine) cuisine for [six](number)
+- can you book a table in a [expensive](price) price range with [british](cuisine) food
+- can you book a table in a [expensive](price) price range
+- may i have a table with [british](cuisine) food
+- can you make a restaurant reservation in a [moderate](price) price range for [six](number) with [french](cuisine) cuisine
+- may i have a table in [rome](location) with [french](cuisine) food in a [cheap](price) price range
+- can you make a restaurant reservation with [french](cuisine) cuisine for [two](number) people
+- can you make a restaurant reservation with [british](cuisine) food in [london](location) in a [cheap](price) price range
+- may i have a table with [british](cuisine) food in [london](location) for [four](number)
+- i'd like to book a table with [french](cuisine) food for [eight](number)
+- i'd like to book a table for [six](number) with [british](cuisine) food in [madrid](location)
+- may i have a table with [indian](cuisine) food in a [moderate](price) price range for [six](number)
+- can you make a restaurant reservation for [eight](number) with [indian](cuisine) cuisine in a [moderate](price) price range
+- can you make a restaurant reservation with [french](cuisine) cuisine in [rome](location) for [six](number)
+- i'd like to book a table in a [moderate](price) price range with [british](cuisine) cuisine
+- can you make a restaurant reservation for [two](number) people in a [cheap](price) price range
+- can you book a table in [rome](location)
+- may i have a table in [bombay](location) in a [moderate](price) price range
+- can you make a restaurant reservation for [four](number) in a [moderate](price) price range with [british](cuisine) cuisine
+- may i have a table with [french](cuisine) cuisine in [bombay](location)
+- can you make a restaurant reservation for [four](number)
+- can you make a restaurant reservation in [london](location) in a [cheap](price) price range
+- i'd like to book a table for [four](number) in a [cheap](price) price range
+- can you make a restaurant reservation in a [cheap](price) price range in [paris](location) with [french](cuisine) cuisine
+- may i have a table in a [cheap](price) price range with [british](cuisine) cuisine
+- can you make a restaurant reservation in [rome](location) for [four](number) with [french](cuisine) cuisine
+- can you make a restaurant reservation in a [moderate](price) price range in [london](location)
+- may i have a table with [italian](cuisine) food in [bombay](location) for [six](number) people
+- can you book a table in a [moderate](price) price range in [rome](location) with [italian](cuisine) food
+- can you make a restaurant reservation with [british](cuisine) cuisine
+- may i have a table in [madrid](location) in a [moderate](price) price range with [indian](cuisine) cuisine
+- can you book a table for [six](number)
+- can you make a restaurant reservation with [italian](cuisine) cuisine in [london](location) for [two](number) people
+- may i have a table for [four](number) people in [bombay](location) in a [expensive](price) price range
+- i'd like to book a table for [four](number) in [madrid](location)
+- i'd like to book a table in a [expensive](price) price range in [paris](location)
+- can you make a restaurant reservation for [two](number) in a [cheap](price) price range with [british](cuisine) food
+- can you make a restaurant reservation in [bombay](location) with [spanish](cuisine) cuisine
+- can you make a restaurant reservation in [bombay](location) in a [cheap](price) price range for [two](number) people
+- can you make a restaurant reservation with [british](cuisine) cuisine in [madrid](location)
+- can you make a restaurant reservation with [italian](cuisine) food for [eight](number)
+- may i have a table in [london](location) with [indian](cuisine) cuisine in a [expensive](price) price range
+- can you book a table with [british](cuisine) cuisine for [six](number)
+- can you make a restaurant reservation in [rome](location)
+- may i have a table for [six](number) in [london](location) in a [moderate](price) price range
+- may i have a table in a [expensive](price) price range in [paris](location) for [two](number)
+- can you make a restaurant reservation for [two](number) with [spanish](cuisine) food in a [moderate](price) price range
+- can you book a table with [british](cuisine) cuisine in [london](location)
+- may i have a table in a [expensive](price) price range with [italian](cuisine) food
+- can you book a table for [eight](number) people with [indian](cuisine) cuisine
+- can you make a restaurant reservation in a [moderate](price) price range for [six](number) in [london](location)
+- can you make a restaurant reservation in [london](location) for [eight](number)
+- can you make a restaurant reservation with [british](cuisine) food
+- can you make a restaurant reservation in a [cheap](price) price range for [two](number)
+- can you make a restaurant reservation for [two](number) people
+- may i have a table in [bombay](location)
+- can you make a restaurant reservation in [bombay](location) for [six](number) people
+- can you book a table for [eight](number) people in a [cheap](price) price range in [london](location)
+- can you make a restaurant reservation in a [moderate](price) price range for [four](number) with [italian](cuisine) food
+- i'd like to book a table in [paris](location)
+- can you book a table for [two](number) people in [london](location)
+- can you book a table in a [cheap](price) price range for [two](number) people
+- i'd like to book a table for [two](number) people in [london](location) in a [cheap](price) price range
+- may i have a table with [indian](cuisine) food
+- may i have a table for [four](number) in [rome](location)
+- can you book a table with [spanish](cuisine) food
+- i'd like to book a table with [spanish](cuisine) cuisine for [six](number) people in a [moderate](price) price range
+- may i have a table with [italian](cuisine) cuisine in [bombay](location) in a [cheap](price) price range
+- can you make a restaurant reservation with [french](cuisine) cuisine in [london](location) in a [cheap](price) price range
+- may i have a table with [indian](cuisine) cuisine
+- can you book a table with [indian](cuisine) cuisine for [eight](number) in [london](location)
+- may i have a table for [two](number) people with [italian](cuisine) food
+- may i have a table with [italian](cuisine) food in a [expensive](price) price range
+- can you book a table in [rome](location) in a [cheap](price) price range with [italian](cuisine) cuisine
+- can you book a table in [rome](location) with [spanish](cuisine) food
+- may i have a table with [italian](cuisine) cuisine in [bombay](location) for [six](number)
+- can you make a restaurant reservation for [six](number) people in a [cheap](price) price range with [spanish](cuisine) food
+- can you make a restaurant reservation in a [cheap](price) price range for [two](number) people in [rome](location)
+- can you book a table in [bombay](location) in a [expensive](price) price range for [four](number) people
+- may i have a table with [british](cuisine) food for [six](number) people
+- can you make a restaurant reservation in [madrid](location)
+- i'd like to book a table with [french](cuisine) cuisine for [six](number) in [bombay](location)
+- may i have a table for [two](number)
+- can you book a table for [two](number) people in a [cheap](price) price range
+- can you make a restaurant reservation in [bombay](location) for [two](number) with [spanish](cuisine) cuisine
+- can you make a restaurant reservation with [british](cuisine) food for [six](number)
+- i'd like to book a table with [british](cuisine) cuisine for [six](number) in [paris](location)
+- may i have a table with [spanish](cuisine) food in a [cheap](price) price range in [bombay](location)
+- may i have a table for [six](number) with [british](cuisine) cuisine
+- can you book a table with [italian](cuisine) cuisine in a [moderate](price) price range in [madrid](location)
+- can you make a restaurant reservation in a [expensive](price) price range in [london](location) with [italian](cuisine) cuisine
+- may i have a table with [spanish](cuisine) food in [bombay](location) in a [expensive](price) price range
+- can you book a table with [italian](cuisine) food for [six](number) in [bombay](location)
+- can you book a table in a [moderate](price) price range in [paris](location)
+- can you make a restaurant reservation for [six](number) in a [moderate](price) price range
+- can you book a table with [italian](cuisine) food for [eight](number) people
+- may i have a table with [french](cuisine) food
+- can you book a table in [london](location)
+- may i have a table for [two](number) people in [london](location) with [french](cuisine) food
+- i'd like to book a table with [spanish](cuisine) food for [eight](number) people
+- i'd like to book a table with [french](cuisine) cuisine in [london](location) for [eight](number)
+- i'd like to book a table with [italian](cuisine) food in a [cheap](price) price range
+- i'd like to book a table in a [moderate](price) price range in [madrid](location) with [indian](cuisine) cuisine
+- may i have a table in a [expensive](price) price range in [paris](location) with [french](cuisine) cuisine
+- can you make a restaurant reservation with [french](cuisine) cuisine in [bombay](location)
+- can you book a table with [british](cuisine) food for [six](number) people in a [cheap](price) price range
+- can you make a restaurant reservation for [six](number) people with [british](cuisine) cuisine in [rome](location)
+- i'd like to book a table with [french](cuisine) cuisine
+- may i have a table for [eight](number) people
+- may i have a table in a [expensive](price) price range in [rome](location)
+- can you book a table in [madrid](location)
+- may i have a table for [six](number)
+- can you book a table for [eight](number) people in [bombay](location) in a [moderate](price) price range
+- can you book a table in a [cheap](price) price range for [six](number) people with [spanish](cuisine) food
+- can you book a table in [paris](location)
+- can you make a restaurant reservation with [indian](cuisine) food
+- may i have a table for [six](number) people
+- can you book a table in a [cheap](price) price range
+- i'd like to book a table with [spanish](cuisine) cuisine in [paris](location) for [two](number) people
+- i'd like to book a table in a [expensive](price) price range with [british](cuisine) cuisine
+- i'd like to book a table for [four](number) people in a [cheap](price) price range
+- can you make a restaurant reservation in a [cheap](price) price range for [four](number) people with [french](cuisine) cuisine
+- can you make a restaurant reservation with [spanish](cuisine) food in [london](location) for [six](number)
+- can you book a table for [six](number) in [madrid](location)
+- can you book a table with [british](cuisine) food in [paris](location)
+- may i have a table in [bombay](location) for [two](number) people in a [cheap](price) price range
+- i'd like to book a table with [indian](cuisine) cuisine in a [expensive](price) price range in [rome](location)
+- may i have a table with [french](cuisine) cuisine
+- may i have a table with [british](cuisine) food in a [moderate](price) price range
+- may i have a table with [italian](cuisine) food
+- can you make a restaurant reservation with [spanish](cuisine) food in [rome](location) in a [cheap](price) price range
+- can you book a table in a [moderate](price) price range in [rome](location) for [six](number)
+- can you book a table in a [moderate](price) price range in [madrid](location)
+- can you book a table for [eight](number) people
+- may i have a table in [bombay](location) with [spanish](cuisine) food in a [cheap](price) price range
+- i'd like to book a table for [eight](number) in [london](location)
+- can you make a restaurant reservation for [six](number) in a [cheap](price) price range
+- may i have a table in [rome](location) in a [moderate](price) price range with [spanish](cuisine) food
+- may i have a table for [four](number) with [british](cuisine) cuisine
+- i'd like to book a table for [six](number) people in [bombay](location) with [indian](cuisine) food
+- i'd like to book a table for [six](number) in [madrid](location) in a [expensive](price) price range
+- i'd like to book a table in [madrid](location)
+- can you book a table in [rome](location) with [british](cuisine) food
+- can you make a restaurant reservation for [six](number) people in [paris](location)
+- may i have a table in [london](location) in a [moderate](price) price range
+- can you make a restaurant reservation for [six](number) people in [rome](location)
+- may i have a table for [eight](number) people in a [expensive](price) price range
+- can you make a restaurant reservation with [italian](cuisine) cuisine for [eight](number) in [bombay](location)
+- i'd like to book a table in [madrid](location) in a [moderate](price) price range
+- i'd like to book a table in a [expensive](price) price range in [rome](location)
+- may i have a table with [spanish](cuisine) cuisine in [paris](location)
+- i'd like to book a table in a [expensive](price) price range with [french](cuisine) cuisine
+- can you book a table in a [moderate](price) price range with [italian](cuisine) food in [london](location)
+- can you make a restaurant reservation in a [cheap](price) price range with [british](cuisine) food in [rome](location)
+- may i have a table for [two](number) people with [british](cuisine) food
+- i'd like to book a table in a [expensive](price) price range
+- can you book a table with [french](cuisine) food in [london](location)
+- can you make a restaurant reservation for [two](number)
+- can you make a restaurant reservation with [italian](cuisine) cuisine in a [moderate](price) price range
+- may i have a table in a [cheap](price) price range in [bombay](location) with [italian](cuisine) cuisine
+- i'd like to book a table with [british](cuisine) cuisine in [rome](location)
+- i'd like to book a table for [two](number) in [london](location)
+- i'd like to book a table with [indian](cuisine) cuisine for [two](number) people in [madrid](location)
+- i'd like to book a table in a [expensive](price) price range for [six](number) people in [rome](location)
+- may i have a table for [four](number) people in [london](location)
+- may i have a table in [bombay](location) in a [moderate](price) price range for [six](number) people
+- can you book a table in [london](location) for [eight](number) with [italian](cuisine) food
+- i'd like to book a table for [eight](number) in a [moderate](price) price range
+- can you book a table in a [expensive](price) price range for [two](number) people in [london](location)
+- i'd like to book a table in a [moderate](price) price range for [six](number) people in [bombay](location)
+- can you make a restaurant reservation for [two](number) in a [moderate](price) price range in [rome](location)
+- may i have a table in [madrid](location) in a [expensive](price) price range
+- can you book a table in a [cheap](price) price range with [indian](cuisine) cuisine for [four](number)
+- may i have a table with [indian](cuisine) cuisine for [six](number) people in [london](location)
+- can you make a restaurant reservation in a [expensive](price) price range with [indian](cuisine) cuisine
+- can you make a restaurant reservation in a [moderate](price) price range for [eight](number) people in [london](location)
+- may i have a table for [four](number)
+- can you make a restaurant reservation in [paris](location) in a [cheap](price) price range for [two](number) people
+- may i have a table for [four](number) people with [british](cuisine) food
+- i'd like to book a table for [four](number) people with [british](cuisine) cuisine in [bombay](location)
+- may i have a table in a [moderate](price) price range with [french](cuisine) food
+- can you make a restaurant reservation in a [moderate](price) price range for [eight](number) with [indian](cuisine) cuisine
+- can you book a table with [british](cuisine) food in a [moderate](price) price range in [bombay](location)
+- i'd like to book a table for [four](number) with [french](cuisine) food
+- i'd like to book a table with [indian](cuisine) cuisine in a [cheap](price) price range
+- can you make a restaurant reservation with [indian](cuisine) cuisine in a [moderate](price) price range in [paris](location)
+- i'd like to book a table for [four](number) in a [expensive](price) price range
+- can you book a table with [indian](cuisine) food in [madrid](location)
+- can you make a restaurant reservation in [london](location) with [indian](cuisine) cuisine
+- can you book a table in a [cheap](price) price range for [four](number) people
+- can you book a table in [rome](location) in a [moderate](price) price range for [eight](number)
+- can you book a table in [rome](location) in a [moderate](price) price range for [six](number) people
+- can you book a table in [madrid](location) with [italian](cuisine) food
+- may i have a table in a [cheap](price) price range with [italian](cuisine) food
+- i'd like to book a table in a [expensive](price) price range with [indian](cuisine) food
+- may i have a table in a [cheap](price) price range with [italian](cuisine) cuisine
+- can you make a restaurant reservation in a [expensive](price) price range for [six](number) people with [british](cuisine) cuisine
+- i'd like to book a table with [french](cuisine) cuisine in [madrid](location) for [eight](number)
+- can you book a table for [eight](number)
+- can you book a table with [indian](cuisine) food for [four](number) people in a [expensive](price) price range
+- i'd like to book a table for [two](number) in a [cheap](price) price range
+- can you make a restaurant reservation with [french](cuisine) food for [six](number) people
+- can you make a restaurant reservation with [indian](cuisine) cuisine for [four](number) people in [paris](location)
+- can you book a table with [italian](cuisine) food
+- i'd like to book a table with [british](cuisine) cuisine in a [cheap](price) price range
+- can you make a restaurant reservation for [six](number) with [french](cuisine) food
+- can you book a table for [four](number) people in a [cheap](price) price range in [rome](location)
+- may i have a table with [british](cuisine) cuisine for [eight](number)
+- can you make a restaurant reservation in [bombay](location) for [eight](number)
+- may i have a table in [london](location)
+- can you book a table with [indian](cuisine) food for [eight](number) people
+- i'd like to book a table for [two](number)
+- i'd like to book a table with [french](cuisine) food in a [cheap](price) price range for [four](number)
+- i'd like to book a table in a [moderate](price) price range in [madrid](location) for [eight](number)
+- can you book a table with [italian](cuisine) food for [eight](number) people in a [expensive](price) price range
+- i'd like to book a table in [bombay](location) with [italian](cuisine) cuisine
+- can you make a restaurant reservation in [london](location)
+- can you book a table in [madrid](location) for [four](number) people
+- can you make a restaurant reservation in a [moderate](price) price range
+- can you make a restaurant reservation in a [moderate](price) price range in [paris](location) for [four](number)
+- can you make a restaurant reservation with [indian](cuisine) food in [london](location) in a [cheap](price) price range
+- can you book a table in a [moderate](price) price range
+- i'd like to book a table in a [expensive](price) price range in [bombay](location) for [four](number) people
+- may i have a table for [six](number) with [french](cuisine) food in [london](location)
+- can you book a table in a [moderate](price) price range in [paris](location) for [two](number)
+- may i have a table with [british](cuisine) cuisine in a [moderate](price) price range for [eight](number)
+- may i have a table for [six](number) with [french](cuisine) cuisine in a [moderate](price) price range
+- can you make a restaurant reservation for [six](number) people in [rome](location) with [french](cuisine) food
+- may i have a table in a [cheap](price) price range with [british](cuisine) food for [six](number)
+- may i have a table in a [moderate](price) price range
+- can you book a table in [rome](location) with [italian](cuisine) food in a [cheap](price) price range
+- i'd like to book a table in a [cheap](price) price range in [bombay](location) for [four](number) people
+- may i have a table with [spanish](cuisine) food in a [moderate](price) price range
+- may i have a table in a [expensive](price) price range for [eight](number)
+- can you book a table in a [moderate](price) price range for [four](number) people with [british](cuisine) food
+- can you make a restaurant reservation in [paris](location) with [italian](cuisine) cuisine in a [expensive](price) price range
+- can you make a restaurant reservation with [italian](cuisine) cuisine for [two](number) people
+- can you make a restaurant reservation in [rome](location) for [six](number) in a [moderate](price) price range
+- can you book a table with [spanish](cuisine) cuisine
+- i'd like to book a table in a [cheap](price) price range for [eight](number) people with [british](cuisine) cuisine
+- can you make a restaurant reservation in [rome](location) in a [cheap](price) price range for [six](number) people
+- can you make a restaurant reservation in a [cheap](price) price range with [indian](cuisine) food
+- i'd like to book a table with [spanish](cuisine) cuisine
+- i'd like to book a table with [spanish](cuisine) food in a [cheap](price) price range for [eight](number)
+- i'd like to book a table for [six](number) with [spanish](cuisine) food
+- can you book a table for [six](number) in a [expensive](price) price range in [london](location)
+- i'd like to book a table in a [moderate](price) price range with [british](cuisine) food for [six](number) people
+- may i have a table in a [expensive](price) price range in [paris](location) for [eight](number)
+- can you make a restaurant reservation with [spanish](cuisine) cuisine in a [cheap](price) price range in [rome](location)
+- can you make a restaurant reservation for [eight](number) people with [italian](cuisine) food in a [expensive](price) price range
+- can you make a restaurant reservation in a [moderate](price) price range in [paris](location)
+- may i have a table with [french](cuisine) cuisine in [paris](location)
+- can you make a restaurant reservation in [madrid](location) for [six](number) people
+- can you make a restaurant reservation in [paris](location) in a [expensive](price) price range with [italian](cuisine) food
+- i'd like to book a table in [rome](location) in a [moderate](price) price range
+- can you book a table for [six](number) in [madrid](location) with [french](cuisine) food
+- may i have a table in [london](location) for [two](number) with [british](cuisine) food
+- can you book a table with [british](cuisine) cuisine in a [cheap](price) price range
+- i'd like to book a table with [italian](cuisine) food
+- can you book a table for [eight](number) people in a [cheap](price) price range in [madrid](location)
+- may i have a table for [four](number) people in a [expensive](price) price range with [italian](cuisine) cuisine
+- can you make a restaurant reservation for [four](number) in a [cheap](price) price range
+- may i have a table with [italian](cuisine) cuisine for [two](number)
+- can you make a restaurant reservation for [two](number) in a [moderate](price) price range in [madrid](location)
+- i'd like to book a table in a [moderate](price) price range for [eight](number)
+- i'd like to book a table for [six](number) people with [spanish](cuisine) cuisine
+- i'd like to book a table with [british](cuisine) cuisine for [six](number) people in [madrid](location)
+- i'd like to book a table in a [expensive](price) price range in [bombay](location) for [eight](number)
+- i'd like to book a table in [paris](location) in a [cheap](price) price range
+- i'd like to book a table in a [cheap](price) price range with [indian](cuisine) cuisine for [two](number)
+- can you make a restaurant reservation with [british](cuisine) food in [madrid](location)
+- can you book a table in a [cheap](price) price range for [two](number) people in [paris](location)
+- can you make a restaurant reservation in a [expensive](price) price range with [italian](cuisine) cuisine in [paris](location)
+- i'd like to book a table with [british](cuisine) food for [six](number) people
+- can you make a restaurant reservation in a [moderate](price) price range in [bombay](location)
+- may i have a table in [rome](location) with [italian](cuisine) cuisine in a [expensive](price) price range
+- can you make a restaurant reservation in [london](location) in a [cheap](price) price range with [french](cuisine) food
+- i'd like to book a table with [indian](cuisine) cuisine
+- can you make a restaurant reservation in [paris](location) in a [expensive](price) price range
+- may i have a table in [london](location) in a [moderate](price) price range for [eight](number)
+- may i have a table with [french](cuisine) cuisine in a [cheap](price) price range
+- i'd like to book a table in a [cheap](price) price range in [paris](location) with [italian](cuisine) cuisine
+- may i have a table in [london](location) in a [cheap](price) price range
+
+## intent:inform
+- [bombay](location) please
+- for [two](number) please
+- for [eight](number) people please
+- for [four](number) people please
+- i love [spanish](cuisine) food
+- with [spanish](cuisine) food
+- with [british](cuisine) cuisine
+- for [eight](number) please
+- with [italian](cuisine) food
+- i love [french](cuisine) food
+- i am looking for a [expensive](price) restaurant
+- [london](location) please
+- with [indian](cuisine) cuisine
+- in a [moderate](price) price range please
+- [paris](location) please
+- with [italian](cuisine) cuisine
+- for [two](number) people please
+- we will be [eight](number)
+- i love [italian](cuisine) food
+- we will be [six](number)
+- we will be [four](number)
+- we will be [two](number)
+- in [london](location)
+- for [six](number) please
+- with [british](cuisine) food
+- i am looking for a [cheap](price) restaurant
+- in [paris](location)
+- i am looking for a [moderate](price) restaurant
+- with [french](cuisine) food
+- in [madrid](location)
+- in [bombay](location)
+- i love [indian](cuisine) food
+- in a [expensive](price) price range please
+- for [six](number) people please
+- [rome](location) please
+- i love [british](cuisine) food
+- with [french](cuisine) cuisine
+- for [four](number) please
+- [madrid](location) please
+- with [spanish](cuisine) cuisine
+- in a [cheap](price) price range please
+- in [rome](location)
+- with [indian](cuisine) food
+
+## intent:repair_inform
+- actually i would prefer in [madrid](location)
+- instead could it be with [spanish](cuisine) cuisine
+- instead could it be in [bombay](location)
+- instead could it be in [madrid](location)
+- actually i would prefer for [two](number)
+- instead could it be for [two](number) people
+- actually i would prefer in a [moderate](price) price range
+- actually i would prefer with [spanish](cuisine) food
+- instead could it be for [eight](number)
+- actually i would prefer in [rome](location)
+- actually i would prefer for [six](number) people
+- instead could it be for [six](number) people
+- instead could it be with [italian](cuisine) food
+- instead could it be with [british](cuisine) cuisine
+- actually i would prefer with [italian](cuisine) food
+- actually i would prefer for [four](number)
+- actually i would prefer with [british](cuisine) cuisine
+- actually i would prefer with [french](cuisine) cuisine
+- actually i would prefer for [eight](number)
+- instead could it be with [french](cuisine) food
+- instead could it be with [indian](cuisine) food
+- instead could it be for [four](number)
+- actually i would prefer in a [expensive](price) price range
+- instead could it be in a [cheap](price) price range
+- instead could it be with [british](cuisine) food
+- actually i would prefer with [italian](cuisine) cuisine
+- actually i would prefer for [eight](number) people
+- instead could it be for [six](number)
+- actually i would prefer for [two](number) people
+- instead could it be with [french](cuisine) cuisine
+- actually i would prefer with [indian](cuisine) cuisine
+- instead could it be for [eight](number) people
+- instead could it be with [spanish](cuisine) food
+- instead could it be for [two](number)
+- actually i would prefer for [six](number)
+- instead could it be in [london](location)
+- instead could it be in [rome](location)
+- actually i would prefer in [paris](location)
+- instead could it be in a [moderate](price) price range
+- actually i would prefer for [four](number) people
+- actually i would prefer with [british](cuisine) food
+- instead could it be with [italian](cuisine) cuisine
+- actually i would prefer with [french](cuisine) food
+- actually i would prefer with [spanish](cuisine) cuisine
+- actually i would prefer with [indian](cuisine) food
+- actually i would prefer in [london](location)
+- instead could it be with [indian](cuisine) cuisine
+- instead could it be in [paris](location)
+- actually i would prefer in [bombay](location)
+- actually i would prefer in a [cheap](price) price range
+- instead could it be in a [expensive](price) price range
+- instead could it be for [four](number) people
+
+## intent:get_info
+- may i have the [phone number](info) of the restaurant
+- what is the [phone number](info) of the restaurant
+- do you have its [phone number](info)
+- can you provide the [address](info)
+- may i have the [address](info) of the restaurant
+- do you have its [address](info)
+
+## intent:thanking
+- you rock
+- thanks
+- thank you
