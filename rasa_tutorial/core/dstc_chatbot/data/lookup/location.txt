@@ -1,0 +1,10 @@
+hanoi
+beijing
+seoul
+bombay
+rome
+tokyo
+paris
+madrid
+london
+bangkok

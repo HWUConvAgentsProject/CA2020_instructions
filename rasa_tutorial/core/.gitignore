@@ -1,3 +1,6 @@
 /logs
 *.log
 .DS_*
+*.key
+__pycache__
+models/
