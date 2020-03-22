@@ -1,0 +1,62 @@
+entities:
+- cuisine
+- location
+- price
+- number
+
+slots:
+  cuisine:
+      type: text
+  
+  location: 
+      type: text
+  
+  price:
+      type: text
+  
+  number:
+      type: text
+
+intents:
+- greet
+- inform
+- make_reservation
+
+actions:
+- utter_greet
+- utter_start
+- utter_confirm
+- utter_ask_cuisine
+- utter_ask_location
+- utter_ask_price
+- utter_ask_number
+- utter_api_call
+
+responses:
+  utter_greet:
+  - text: "hello, what can i help you with today"
+
+  utter_start:
+  - text: "i'm on it"
+
+  utter_ask_cuisine:
+  - text: "any preference on a type of cuisine"
+
+  utter_ask_price:
+  - text: "which price range are you looking for"
+
+  utter_ask_location:
+  - text: "where should it be"
+
+  utter_ask_number:
+  - text: "how many people would be in your party"
+
+  utter_confirm:
+  - text: "ok let me look into some options for you"
+
+  utter_api_call:
+  - text: "api_call {cuisine} {location} {number} {price}"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
