@@ -1,9 +1,9 @@
 
-**By gaining access to the contents of this organization, you agree not to distribute or publish any of the contents found here in any way. The access you have can and will only be used for the purposes of Conversational Agents course.**
+**By gaining access to the contents of this organization, you agree not to distribute or publish any of the contents found here in any way. The access you have can and will only be used for the purposes of the Conversational Agents course F20CA or F21CA at Heriot-Watt University.**
 
 
 # General Info
-For your coursework you will use the Alana conversational framework. Alana runs as a service and is accessible through an endpoind `http://52.56.181.83:5000`.
+For your coursework you have the option to use the Alana conversational framework. Alana runs as a service and is accessible through an endpoind `http://52.56.181.83:5000`.
 
 ## Setup 
 1. Make sure you have the following installed in your system:
