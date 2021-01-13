@@ -19,11 +19,14 @@
 
 # Test call in Python3
 
+```python
 import requests
 
 data = {'user_id': 'test-user', 'question': 'Hello there', 'session_id': 'CLI-sessionId', 'projectId': 'CA2020', 'overrides': {'BOT_LIST': ['coherence_bot', 'news_bot_v2', 'wiki_bot_mongo'], 'PRIORITY_BOTS': [['news_bot_v2', 'wiki_bot_mongo'], 'coherence_bot']}}
 
 r= requests.post(url='http://852d4761.ngrok.io', json=data)
 r.json()
+```
+
 
 
