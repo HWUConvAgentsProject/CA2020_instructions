@@ -1,7 +1,7 @@
 
 # Week 2 Lab Instructions
 
-1. Download and extract *Lab1.zip* from Vision on your computer.
+1. Download and extract *Lab-week2.zip* from Vision on your computer.
 2. Assuming you have already registered to Ngrok, go to [https://dashboard.ngrok.com/get-started](https://dashboard.ngrok.com/get-started) and download and unzip the ngrok client for your OS. There is no installation, just an executable, so make sure you save it somewhere you can easily remember.
 3. Run the command `./ngrok authtoken xxxxxxxxxxxxxxxxxxxx`as it appears for you on that link from within the folder where you unzipped the ngrok client.
 4. Run `./ngrok http 5130` to start the ngrok client and bind `localohost:5130` to an accessible url as shown in the picture. You will need the `http` address.
