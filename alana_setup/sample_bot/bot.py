@@ -14,8 +14,6 @@ import random
 app = Flask(__name__)
 api = Api(app)
 BOT_NAME = "greetings"
-VERSION = log.get_short_git_version()
-BRANCH = log.get_git_branch()
 
 logger = logging.getLogger(__name__)
 
@@ -78,7 +76,7 @@ if __name__ == "__main__":
     if not os.path.exists("logs/"):
         os.makedirs("logs/")
 
-    log.set_logger_params(BOT_NAME + '-' + BRANCH, logfile=args.logfile,
+    log.set_logger_params(BOT_NAME, logfile=args.logfile,
                           file_level=args.file_verbosity, console_level=args.console_verbosity)
 
     api.add_resource(GreetingsBot, "/")
