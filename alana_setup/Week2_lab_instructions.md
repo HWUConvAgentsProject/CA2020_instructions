@@ -13,7 +13,7 @@
 1. Assuming you already have Anaconda installed and setup (type `conda info` on the terminal to check), run the `alana_installation.sh` script to setup a new conda environment and install the required packages for the sample bot to run.
 2. Run `conda activate Alana` to activate the virtual environment on the current terminal. You should see something like `(Alana) ~/CA2020:` as prompt.
 3. Run `python bot.py` from withing the *sample_bot* folder. The bot should start listening for incoming connections.
-4. On a different terminal/tab, run the command `curl -X POST -H "Content-Type: application/json" -d '{"user_id":"test-5827465823641856215", "question":"hi", "session_id":"CLI-1100002", "projectId": "CA2020", "overrides": {"BOT_LIST": ["coherence_bot", {"greetings":"http://b28c735a.ngrok.io"}], "PRIORITY_BOTS":["greetings", "coherence_bot"]}}' http://52.23.135.246:5000`, replacing `http://b28c735a.ngrok.io` with the http url ngrok generated for you.
+4. On a different terminal/tab, run the command `curl -X POST -H "Content-Type: application/json" -d '{"user_id":"test-5827465823641856215", "question":"hi", "session_id":"CLI-1100002", "projectId": "CA2020", "overrides": {"BOT_LIST": ["coherence_bot", {"greetings":"http://b28c735a.ngrok.io"}], "PRIORITY_BOTS":["greetings", "coherence_bot"]}}' http://52.56.181.83:5000`, replacing `http://b28c735a.ngrok.io` with the http url ngrok generated for you.
 
 	If you should see the json response, you succesfully called Alana and Alana called your sample_bot hosted locally.
 
