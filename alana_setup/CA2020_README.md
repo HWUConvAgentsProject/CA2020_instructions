@@ -3,17 +3,13 @@
 
 
 # General Info
-For your coursework you have the option to use the Alana conversational framework. Alana runs as a service and is accessible through an endpoind `http://52.56.181.83:5000`.
+For your coursework you have the option to use the Alana conversational framework. Alana runs as a service and is accessible through the endpoind `http://52.56.181.83:5000`.
 
 ## Setup 
 1. Make sure you have the following installed in your system:
 - `anaconda` (https://docs.anaconda.com/anaconda/install/)
 - `ngrok` (https://ngrok.com/) This will be needed in order to expose your bot and make it accessible by Alana.
-- (optional) `MongoDB` (e.g. from https://www.mongodb.com/download-center/community). Although MongoDB is not needed, most of you will proboably want to keep track of the internal state of your bots which MongoDB will be of great help.
-
-(After lecture has been given)
-
-2. Install all required packages by running `./alana_installation.sh`. This will create the _Alana_ virtual environment on Anaconda, activate it, and install all the packages there. 
+- (optional) `MongoDB` (e.g. from https://www.mongodb.com/download-center/community). Although MongoDB is not needed, some of you might want to keep track of the internal state of your bots which MongoDB will be of great help (there is an alternative way that will be discussed during the lecture).
 
 ## Usage
 As noted earlier, Alana is already running and is accessible as a service. Each team will need to create one or more new bots, that will be added to the ensemble and called by Alana (as exlpained in the classroom). 
@@ -444,6 +440,6 @@ import requests
 
 data = {'user_id': 'test-user', 'question': 'Hello there', 'session_id': 'CLI-sessionId', 'projectId': 'CA2020', 'overrides': {'BOT_LIST': ['coherence_bot', 'news_bot_v2', 'wiki_bot_mongo'], 'PRIORITY_BOTS': [['news_bot_v2', 'wiki_bot_mongo'], 'coherence_bot']}}
 
-r= requests.post(url='http://852d4761.ngrok.io', json=data)
+r= requests.post(url='http://52.56.181.83:5000', json=data)
 r.json()
 ```
